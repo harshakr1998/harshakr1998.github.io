@@ -1,188 +1,389 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>My Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<div id="header">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Welcome to my portfolio !</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
 
-				<div class="top">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/h.png" alt="" /></span>
-							<h1 id="title">Harsha k R</h1>
-							<p>Quality Engineer</p>
-						</div>
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Harsha</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#service">Service</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#hobbies">Hobbies</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>   
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Harsha K R</span>
+            </h1>
+            <p class="header-subtitle">The Software Quality Engineer</p>
+            <a href="#service">
+                <button class="btn btn-primary">What i do ?</button>
+            </a>
 
-				</div>
+        </div>
+    </header><!-- end of page header -->
 
-				<div class="bottom">
+    <!-- about section -->
+    <section class="section" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        I am a seasoned professional with 2 years of experience specializing in web automation and
+                        manual testing. With a background in Insurance Domain, I've cultivated a comprehensive skill set
+                        that encompasses both automated and manual testing methodologies. I excel in leveraging
+                        automation tools and scripting languages to streamline processes, boost efficiency, and achieve
+                        results, while also possessing a keen eye for detail and a meticulous approach to manual
+                        testing. My expertise spans the entire testing lifecycle, from requirements analysis and test
+                        planning to execution, defect tracking, and reporting. <br>
+                        <br>Specializing in Manual and Automation Testing, I am proficient in Core Java /Selenium. I
+                        thrive on solving complex challenges and delivering innovative solutions that exceed client
+                        expectations. With strong communication skills and a commitment to continuous learning, I am
+                        dedicated to driving success through a balanced approach to testing. I am excited about
+                        collaborating on future projects and contributing to organizational growth through automation
+                        excellence and rigorous manual testing practices.
+                    </p>
+                    <button onclick="downloadFile()" class="btn-rounded btn btn-outline-primary mt-4">Download
+                        CV</button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/harshakr1998/harshakr1998" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="mailto:harsharobo222@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/manualTesting.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Manual Testing</h6>
+                            <p class="subtitle">Skilled in manual testing, ensuring software quality through meticulous
+                                hands-on evaluation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/java.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Core Java</h6>
+                            <p class="subtitle">Proficient in Core Java, adept at crafting robust, efficient solutions
+                                for diverse programming challenges.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/automate.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Selenium</h6><br>
+                            <p class="subtitle">Experienced in Selenium automation, proficiently crafting reliable
+                                scripts to streamline testing processes and ensure software quality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">API Testing</h6>
+                            <p class="subtitle">Proficient in API testing, ensuring seamless integration and
+                                functionality across software components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
 
-				</div>
+    <!-- hobbies section -->
+    <section class="hobbies section" id="hobbies">
+        <div class="container text-center">
+            <p class="section-subtitle">What Else I Love To Do ?</p>
+            <h6 class="section-title mb-6">Hobbies</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="hobbies-card">
+                        <div class="body">
+                            <img src="assets/imgs/photography.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Mobile Photgraphy</h6>
+                            <p class="subtitle">Proficient in API testing, ensuring seamless integration and
+                                functionality across software components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="hobbies-card">
+                        <div class="body">
+                            <img src="assets/imgs/hiking.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Hiking</h6>
+                            <p class="subtitle">Proficient in API testing, ensuring seamless integration and
+                                functionality across software components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="hobbies-card">
+                        <div class="body">
+                            <img src="assets/imgs/music.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Music</h6>
+                            <p class="subtitle">Proficient in API testing, ensuring seamless integration and
+                                functionality across software components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="hobbies-card">
+                        <div class="body">
+                            <img src="assets/imgs/anime.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Watching Anime</h6>
+                            <p class="subtitle">Proficient in API testing, ensuring seamless integration and
+                                functionality across software components.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </section><!-- end of hobbies section -->
 
-			</div>
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Manual Testing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Defect Tracking</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Selenium-Testing.jpeg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Selenium with Core Java Framework Designing and Testing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">    
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Category: Web Templates</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
 
-		<!-- Main -->
-			<div id="main">
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                   <a  href = "#contact">
+                     <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
+                   </a> 
+                    
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
 
-							<header>
-								<h2 class="alt">Hi! <strong>Welcome</strong>, to <strong>My Portfolio</strong></a><br /></h2>
-							</header>
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <div class="social-links text-center m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-github"></i><br></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
 
-							<footer>
-								<a href="#about" class="button scrolly">About Me</a>
-							</footer>
+    <!-- File Download-->
+    <script>
+        function downloadFile() {
+            var anchor = document.createElement('a');
+            anchor.href = "assets/resume/TestFile.pdf";
+            anchor.download = 'HarshaKR_resume.pdf';
+            document.body.appendChild(anchor);
+            anchor.click();
+            document.body.removeChild(anchor);
+        }
+    </script>
 
-						</div>
-					</section>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
 
-							<p>Hi i am Harsha K R, a Quality Engineer from India 
-								<br> Here's what i do ! </br>
-							</p>
+</body>
 
-							<p>
-								I am a seasoned professional with 2 years of experience specializing in web automation and manual testing. With a background in Insurance Domain, I've cultivated a comprehensive skill set that encompasses both automated and manual testing methodologies. I excel in leveraging automation tools and scripting languages to streamline processes, boost efficiency, and achieve results, while also possessing a keen eye for detail and a meticulous approach to manual testing. My expertise spans the entire testing lifecycle, from requirements analysis and test planning to execution, defect tracking, and reporting.
-							</p>
-							<p>
-								Specializing in Manual and Automation Testing, I am proficient in Core Java /Selenium. I thrive on solving complex challenges and delivering innovative solutions that exceed client expectations. With strong communication skills and a commitment to continuous learning, I am dedicated to driving success through a balanced approach to testing. I am excited about collaborating on future projects and contributing to organizational growth through automation excellence and rigorous manual testing practices.
-							</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/programmer_online_1.jpg" alt="" /></a>
-										<header>
-											<h3>Manual Testing</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/Selenium_Logo.png" alt="" /></a>
-										<header>
-											<h3>Selenium Automation</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/testCaseTemplate.png" alt="" /></a>
-										<header>
-											<h3>Test Case Writing</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/java.png" alt="" /></a>
-										<header>
-											<h3>Core Java</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/apiTest.png" alt="" /></a>
-										<header>
-											<h3>API Testing</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/defectTrack.png" alt="" /></a>
-										<header>
-											<h3>Defect Tracking</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-							<header>
-								<h2>Contact</h2>
-							</header>
-							<p>If you want to know more about me, feel free to contact me !</p>
-
-							<form method="post" action="#">
-								<div class="contact-info">
-									<p><strong>Name:</strong> Harsha K R</p>
-									<p><strong>Email:</strong> <a href="mailto:harsharobo222@gmail.com"> harsharobo222@gmail.com </a</p>
-								</div>
-							</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
