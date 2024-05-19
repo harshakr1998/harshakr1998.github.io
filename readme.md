@@ -6,7 +6,7 @@ Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the uality o
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/harshakr1998/harshakr1998.github.io
+   git clone https://github.com/harshakr1998/harshakr1998.github.io.git
    ```
 2. Navigate to the project directory:
    ```bash
