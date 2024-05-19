@@ -20,3 +20,7 @@ Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the uality o
    ```bash
    http-server
    ```
+
+Open the ``` index.html ``` file in your browser to view the portfolio. Navigate through the sections using the menu at the top.
+
+Huge Thanks to [Theme Wagon](https://themewagon.com/themes/free-bootstrap-portfolio-website-template-meyawo/), [Freepik](https://www.freepik.com/) and [Fontawesome](https://fontawesome.com/) for their amazing Templates, Images and Icons !!!
