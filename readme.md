@@ -1,4 +1,7 @@
-Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the uality of a software. This portfolio contains a collection of my work, showcasing my skills in Software Testing.
+Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the quality of a software. This portfolio contains a collection of my work, showcasing my skills in Software Testing.
+
+- If you would like to use the same template for your profile as well, clone the repo and start using it ! 
+
 
 ### Prerequisites
 - Software or tools needed (VS Code,Node.js)
@@ -21,6 +24,6 @@ Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the uality o
    http-server
    ```
 
-Open the ``` index.html ``` file in your browser to view the portfolio. Navigate through the sections using the menu at the top.
+- Open the ``` index.html ``` file in your browser to view the portfolio. Navigate through the sections using the menu at the top.
 
-Huge Thanks to [Theme Wagon](https://themewagon.com/themes/free-bootstrap-portfolio-website-template-meyawo/), [Freepik](https://www.freepik.com/) and [Fontawesome](https://fontawesome.com/) for their amazing Templates, Images and Icons !!!
+- Huge Thanks to [Theme Wagon](https://themewagon.com/themes/free-bootstrap-portfolio-website-template-meyawo/), [Freepik](https://www.freepik.com/) and [Fontawesome](https://fontawesome.com/) for their amazing Templates, Images and Icons !!!
