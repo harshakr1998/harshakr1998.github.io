@@ -1,6 +1,6 @@
 Hi! I'm Harsha K R, a Quality Engineer with a passion for enhancing the quality of a software. This portfolio contains a collection of my work, showcasing my skills in Software Testing.
 
-- If you would like to use the same template for your profile as well, clone the repo and start using it ! 
+- If you would like to use the same template for your profile as well, clone the repo and start using it !   
 
 
 ### Prerequisites
