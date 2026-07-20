@@ -1,0 +1,104 @@
+.contact {}
+
+.wrapper { display: flex; flex-direction: column; gap: 24px; }
+
+.helpWin {}
+
+.helpBody { padding: 20px 24px; }
+
+.usage { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; }
+.kw    { color: var(--amber); font-weight: 700; }
+.arg   { color: var(--cyan); }
+
+.usageDesc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 20px;
+  border-left: 2px solid var(--border);
+  padding-left: 14px;
+}
+
+.separator {
+  font-size: 0.75rem;
+  color: var(--amber);
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Flags table */
+.flagsTable { display: flex; flex-direction: column; gap: 2px; margin-bottom: 20px; }
+
+.flagRow {
+  display: grid;
+  grid-template-columns: 130px 22px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: var(--r-sm);
+  border: 1px solid transparent;
+  transition: all var(--t-fast);
+  text-decoration: none;
+}
+.flagRow:hover {
+  background: rgba(255,255,255,0.03);
+  border-color: var(--border);
+}
+
+.flagName  { font-size: 0.82rem; font-weight: 700; }
+.flagIcon  { font-size: 0.8rem; }
+.flagValue { font-size: 0.82rem; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flagDesc  { font-size: 0.72rem; color: var(--text-muted); font-style: italic; white-space: nowrap; }
+
+/* Example */
+.example {
+  font-size: 0.82rem;
+  padding: 10px 14px;
+  background: var(--bg-elevated);
+  border-radius: var(--r-sm);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+.pu  { color: var(--green); font-weight: 700; }
+.pa  { color: var(--text-muted); }
+.ph  { color: var(--cyan); font-weight: 600; }
+.ps  { color: var(--text-secondary); }
+.cmd { color: var(--amber); }
+
+/* Exit code */
+.exitCode {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* CTA */
+.cta {
+  padding: 24px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-green);
+  border-radius: var(--r-lg);
+  background: rgba(0,255,65,0.03);
+}
+
+.ctaText {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.ctaBtns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .flagRow { grid-template-columns: 120px 18px 1fr; }
+  .flagDesc { display: none; }
+  .ctaBtns { flex-direction: column; }
+  .ctaBtns > * { justify-content: center; }
+}

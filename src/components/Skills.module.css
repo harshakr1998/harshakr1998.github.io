@@ -1,0 +1,110 @@
+.skills {}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  cursor: pointer;
+  animation: fadeInUp 0.4s ease both;
+  transition: border-color var(--t-base), box-shadow var(--t-base);
+}
+
+.cardOpen {
+  border-color: var(--border-green) !important;
+  box-shadow: var(--glow-green) !important;
+}
+
+/* Directory header */
+.dirHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--t-fast);
+}
+.dirHeader:hover { background: var(--bg-surface); }
+
+.dirIcon { font-size: 0.9rem; }
+
+.dirName {
+  flex: 1;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.dirCount {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+
+.chevron {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+/* File listing (expanded) */
+.listing {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+  border-top: 0px solid var(--border);
+}
+
+.listingOpen {
+  max-height: 500px;
+  border-top: 1px solid var(--border-muted);
+}
+
+.fileRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 6px 20px;
+  font-size: 0.75rem;
+  transition: background var(--t-fast);
+}
+.fileRow:hover { background: rgba(255,255,255,0.03); }
+
+.filePerms { color: var(--text-muted); font-size: 0.68rem; }
+.fileSize  { color: var(--text-muted); font-size: 0.68rem; width: 30px; text-align: right; }
+
+.fileName {
+  font-weight: 500;
+}
+
+.fileExt { color: var(--text-muted); font-weight: 400; }
+
+/* Collapsed: chip row */
+.collapsed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border-muted);
+}
+
+.chip {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 100px;
+  border: 1px solid;
+  transition: all var(--t-fast);
+}
+.chip:hover { opacity: 0.8; transform: translateY(-1px); }
+
+.more {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  align-self: center;
+  padding: 2px 8px;
+}
+
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; }
+}

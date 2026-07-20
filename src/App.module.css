@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  background: var(--bg-base);
+}
+
+.layout {
+  display: flex;
+  padding-top: var(--navbar-h);
+}
+
+.main {
+  flex: 1;
+  margin-left: var(--sidebar-w);
+  min-height: calc(100vh - var(--navbar-h));
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  .main {
+    margin-left: 0;
+  }
+}
